@@ -18,6 +18,4 @@ app.post("/profiles", (req,res)=>{
   console.log("hit");
 })
 
-app.listen(8080, (req,res)=>{
-  console.log("Server is starting...");
-})
+app.listen(process.env.PORT, process.env.IP);
