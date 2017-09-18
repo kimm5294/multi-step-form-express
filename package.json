@@ -1,0 +1,25 @@
+{
+  "name": "multi-step-form-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimm5294/multi-step-form-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimm5294/multi-step-form-express/issues"
+  },
+  "homepage": "https://github.com/kimm5294/multi-step-form-express#readme"
+}
