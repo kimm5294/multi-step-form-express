@@ -9,6 +9,10 @@ mongoose.connect("mongodb://localhost/forms");
 
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.get("/", (req,res)=>{
+  res.redirect("/profiles");
+})
+
 app.get("/profiles", (req,res)=>{
   let profiles = Profile.find();
   res.render("./public/test.ejs");
