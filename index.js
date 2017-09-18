@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/profiles", (req,res)=>{
   let profiles = Profile.find();
-  res.send("hit");
+  res.render("test.ejs");
 })
 
 app.post("/profiles", (req,res)=>{
