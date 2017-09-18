@@ -22,4 +22,6 @@ app.post("/profiles", (req,res)=>{
   console.log("hit");
 })
 
-app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT, function(){
+  console.log("Express server listening");
+});
